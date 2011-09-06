@@ -1,0 +1,64 @@
+1315346163
+ApplicationController	/Users/irina/Code/depot/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/irina/Code/depot/app/helpers/application_helper.rb	module ApplicationHelper
+Boot	/Users/irina/Code/depot/config/boot.rb	  class Boot
+BrowsingTest	/Users/irina/Code/depot/test/performance/browsing_test.rb	class BrowsingTest 
+CreateProducts	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	class CreateProducts 
+GemBoot	/Users/irina/Code/depot/config/boot.rb	  class GemBoot 
+Product	/Users/irina/Code/depot/app/models/product.rb	class Product 
+ProductTest	/Users/irina/Code/depot/test/unit/product_test.rb	class ProductTest 
+ProductsController	/Users/irina/Code/depot/app/controllers/products_controller.rb	class ProductsController 
+ProductsControllerTest	/Users/irina/Code/depot/test/functional/products_controller_test.rb	class ProductsControllerTest 
+ProductsHelper	/Users/irina/Code/depot/app/helpers/products_helper.rb	module ProductsHelper
+ProductsHelperTest	/Users/irina/Code/depot/test/unit/helpers/products_helper_test.rb	class ProductsHelperTest 
+RAILS_GEM_VERSION	/Users/irina/Code/depot/config/environment.rb	RAILS_GEM_VERSION =
+RAILS_ROOT	/Users/irina/Code/depot/config/boot.rb	RAILS_ROOT =
+Rails	/Users/irina/Code/depot/config/boot.rb	module Rails
+TestCase	/Users/irina/Code/depot/test/test_helper.rb	class ActiveSupport::TestCase
+VendorBoot	/Users/irina/Code/depot/config/boot.rb	  class VendorBoot 
+addText	/Users/irina/Code/depot/public/javascripts/controls.js	function addText(mode, condition)
+boot!	/Users/irina/Code/depot/config/boot.rb	    def boot!
+booted?	/Users/irina/Code/depot/config/boot.rb	    def booted?
+codeForEvent	/Users/irina/Code/depot/public/javascripts/effects.js	function codeForEvent(options,eventName)
+copy	/Users/irina/Code/depot/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def create
+createWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function createWrapper(element, eventName, handler)
+destroy	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def destroy
+destroyCache	/Users/irina/Code/depot/public/javascripts/prototype.js	function destroyCache()
+destroyWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function destroyWrapper(id, eventName, handler)
+dispatch	/Users/irina/Code/depot/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.down
+edit	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def edit
+extend	/Users/irina/Code/depot/public/javascripts/prototype.js	function extend(tagName)
+fallback	/Users/irina/Code/depot/public/javascripts/controls.js	function fallback(name, expr)
+findDOMClass	/Users/irina/Code/depot/public/javascripts/prototype.js	function findDOMClass(tagName)
+findWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function findWrapper(id, eventName, handler)
+fireContentLoadedEvent	/Users/irina/Code/depot/public/javascripts/prototype.js	function fireContentLoadedEvent()
+gem_version	/Users/irina/Code/depot/config/boot.rb	      def gem_version
+getCacheForID	/Users/irina/Code/depot/public/javascripts/prototype.js	function getCacheForID(id)
+getDOMEventName	/Users/irina/Code/depot/public/javascripts/prototype.js	function getDOMEventName(eventName)
+getEventID	/Users/irina/Code/depot/public/javascripts/prototype.js	function getEventID(element)
+getWrappersForEventName	/Users/irina/Code/depot/public/javascripts/prototype.js	function getWrappersForEventName(id, eventName)
+index	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def index
+iter	/Users/irina/Code/depot/public/javascripts/prototype.js	function iter(name)
+klass	/Users/irina/Code/depot/public/javascripts/prototype.js	function klass()
+load_initializer	/Users/irina/Code/depot/config/boot.rb	    def load_initializer
+load_initializer	/Users/irina/Code/depot/config/boot.rb	    def load_initializer
+load_rails_gem	/Users/irina/Code/depot/config/boot.rb	    def load_rails_gem
+load_rubygems	/Users/irina/Code/depot/config/boot.rb	      def load_rubygems
+new	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def new
+parseColor	/Users/irina/Code/depot/public/javascripts/effects.js	function parseColor(color)
+parse_gem_version	/Users/irina/Code/depot/config/boot.rb	      def parse_gem_version(text)
+pick_boot	/Users/irina/Code/depot/config/boot.rb	    def pick_boot
+preinitialize	/Users/irina/Code/depot/config/boot.rb	    def preinitialize
+preinitializer_path	/Users/irina/Code/depot/config/boot.rb	    def preinitializer_path
+read_environment_rb	/Users/irina/Code/depot/config/boot.rb	        def read_environment_rb
+rubygems_version	/Users/irina/Code/depot/config/boot.rb	      def rubygems_version
+run	/Users/irina/Code/depot/config/boot.rb	    def run
+show	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def show
+stripAlpha	/Users/irina/Code/depot/public/javascripts/prototype.js	function stripAlpha(filter)
+test_homepage	/Users/irina/Code/depot/test/performance/browsing_test.rb	  def test_homepage
+toQueryPair	/Users/irina/Code/depot/public/javascripts/prototype.js	function toQueryPair(key, value)
+up	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.up
+update	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def update
+vendor_rails?	/Users/irina/Code/depot/config/boot.rb	    def vendor_rails?
