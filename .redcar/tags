@@ -1,4 +1,5 @@
-1315346163
+1315348706
+AddPriceToProduct	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	class AddPriceToProduct 
 ApplicationController	/Users/irina/Code/depot/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/irina/Code/depot/app/helpers/application_helper.rb	module ApplicationHelper
 Boot	/Users/irina/Code/depot/config/boot.rb	  class Boot
@@ -28,6 +29,7 @@ destroyCache	/Users/irina/Code/depot/public/javascripts/prototype.js	function de
 destroyWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function destroyWrapper(id, eventName, handler)
 dispatch	/Users/irina/Code/depot/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.down
+down	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	  def self.down
 edit	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def edit
 extend	/Users/irina/Code/depot/public/javascripts/prototype.js	function extend(tagName)
 fallback	/Users/irina/Code/depot/public/javascripts/controls.js	function fallback(name, expr)
@@ -60,5 +62,6 @@ stripAlpha	/Users/irina/Code/depot/public/javascripts/prototype.js	function stri
 test_homepage	/Users/irina/Code/depot/test/performance/browsing_test.rb	  def test_homepage
 toQueryPair	/Users/irina/Code/depot/public/javascripts/prototype.js	function toQueryPair(key, value)
 up	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.up
+up	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	  def self.up
 update	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def update
 vendor_rails?	/Users/irina/Code/depot/config/boot.rb	    def vendor_rails?

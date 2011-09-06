@@ -57,3 +57,286 @@ ActionController::RoutingError (No route matches "/goodbye" with {:method=>:get}
   /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-09-06 18:28:29) [GET]
+
+ActiveRecord::StatementInvalid (Could not find table 'products'):
+  app/controllers/products_controller.rb:27:in `new'
+  app/controllers/products_controller.rb:27:in `new'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (85.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20110906192040)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110906192040')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-09-06 18:33:28) [GET]
+Rendering template within layouts/products
+Rendering products/new
+ERROR: compiling _run_erb_app47views47products47new46html46erb RAISED compile error
+/Users/irina/Code/depot/app/views/products/new.html.erb:7: syntax error, unexpected ':', expecting ')'
+...tput_buffer.concat(( f.label : title ).to_s); @output_buffer...
+                              ^
+/Users/irina/Code/depot/app/views/products/new.html.erb:8: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.text_field : title ).to_s); @output_buffer...
+                              ^
+Function body:           def _run_erb_app47views47products47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New product</h1>\n\n"
+
+;  form_for(@product) do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label : title ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field : title ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :description ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_area :description ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :image_url ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :image_url ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.submit 'Create' ).to_s); @output_buffer.concat "\n  </p>\n"
+
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( link_to 'Back', products_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/irina/Code/depot/app/views/products/new.html.erb:26:in `compile!'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:61:in `compile'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:28:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/template.rb:205:in `render_template'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:265:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:262:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:135:in `send'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:135:in `custom'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:179:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:179:in `respond'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:173:in `each'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:173:in `respond'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/irina/Code/depot/app/controllers/products_controller.rb:29:in `new'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1333:in `send'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1333:in `perform_action_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `send'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:606:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:391:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:386:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/commands/server.rb:111
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/irina/Code/depot/app/views/products/new.html.erb:7: syntax error, unexpected ':', expecting ')'
+...tput_buffer.concat(( f.label : title ).to_s); @output_buffer...
+                              ^
+/Users/irina/Code/depot/app/views/products/new.html.erb:8: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.text_field : title ).to_s); @output_buffer...
+                              ^) on line #7 of app/views/products/new.html.erb:
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label : title %><br />
+8:     <%= f.text_field : title %>
+9:   </p>
+10:   <p>
+
+    app/views/products/new.html.erb:26:in `compile!'
+    app/controllers/products_controller.rb:29:in `new'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (91.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-09-06 18:35:01) [GET]
+Rendering template within layouts/products
+Rendering products/new
+
+ActionView::TemplateError (undefined method `price' for #<Product:0x101ff3b90>) on line #20 of app/views/products/new.html.erb:
+17:   </p>
+18:    <p>
+19:     <%= f.label :price %><br />
+20:     <%= f.text_field :price%>
+21:   </p>
+22:   <p>
+23:     <%= f.submit 'Create' %>
+
+    app/views/products/new.html.erb:20
+    app/views/products/new.html.erb:3
+    app/controllers/products_controller.rb:29:in `new'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-09-06 18:35:20) [GET]
+Rendering template within layouts/products
+Rendering products/new
+
+ActionView::TemplateError (undefined method `price' for #<Product:0x101fdc670>) on line #20 of app/views/products/new.html.erb:
+17:   </p>
+18:    <p>
+19:     <%= f.label :price %><br />
+20:     <%= f.text_field :price %>
+21:   </p>
+22:   <p>
+23:     <%= f.submit 'Create' %>
+
+    app/views/products/new.html.erb:20
+    app/views/products/new.html.erb:3
+    app/controllers/products_controller.rb:29:in `new'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (36.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20110906192040)
+Migrating to AddPriceToProduct (20110906223651)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mALTER TABLE "products" ADD "price" decimal(8,2) DEFAULT 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110906223651')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-09-06 18:39:31) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://localhost/products/new]
