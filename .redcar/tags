@@ -1,5 +1,6 @@
-1315348706
+1315435658
 AddPriceToProduct	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	class AddPriceToProduct 
+AddTestData	/Users/irina/Code/depot/db/migrate/20110907155935_add_test_data.rb	class AddTestData 
 ApplicationController	/Users/irina/Code/depot/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/irina/Code/depot/app/helpers/application_helper.rb	module ApplicationHelper
 Boot	/Users/irina/Code/depot/config/boot.rb	  class Boot
@@ -15,6 +16,10 @@ ProductsHelperTest	/Users/irina/Code/depot/test/unit/helpers/products_helper_tes
 RAILS_GEM_VERSION	/Users/irina/Code/depot/config/environment.rb	RAILS_GEM_VERSION =
 RAILS_ROOT	/Users/irina/Code/depot/config/boot.rb	RAILS_ROOT =
 Rails	/Users/irina/Code/depot/config/boot.rb	module Rails
+StoreController	/Users/irina/Code/depot/app/controllers/store_controller.rb	class StoreController 
+StoreControllerTest	/Users/irina/Code/depot/test/functional/store_controller_test.rb	class StoreControllerTest 
+StoreHelper	/Users/irina/Code/depot/app/helpers/store_helper.rb	module StoreHelper
+StoreHelperTest	/Users/irina/Code/depot/test/unit/helpers/store_helper_test.rb	class StoreHelperTest 
 TestCase	/Users/irina/Code/depot/test/test_helper.rb	class ActiveSupport::TestCase
 VendorBoot	/Users/irina/Code/depot/config/boot.rb	  class VendorBoot 
 addText	/Users/irina/Code/depot/public/javascripts/controls.js	function addText(mode, condition)
@@ -30,11 +35,13 @@ destroyWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function 
 dispatch	/Users/irina/Code/depot/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.down
 down	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	  def self.down
+down	/Users/irina/Code/depot/db/migrate/20110907155935_add_test_data.rb	  def self.down
 edit	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def edit
 extend	/Users/irina/Code/depot/public/javascripts/prototype.js	function extend(tagName)
 fallback	/Users/irina/Code/depot/public/javascripts/controls.js	function fallback(name, expr)
 findDOMClass	/Users/irina/Code/depot/public/javascripts/prototype.js	function findDOMClass(tagName)
 findWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function findWrapper(id, eventName, handler)
+find_products_for_sale	/Users/irina/Code/depot/app/models/product.rb	  def self.find_products_for_sale
 fireContentLoadedEvent	/Users/irina/Code/depot/public/javascripts/prototype.js	function fireContentLoadedEvent()
 gem_version	/Users/irina/Code/depot/config/boot.rb	      def gem_version
 getCacheForID	/Users/irina/Code/depot/public/javascripts/prototype.js	function getCacheForID(id)
@@ -42,6 +49,7 @@ getDOMEventName	/Users/irina/Code/depot/public/javascripts/prototype.js	function
 getEventID	/Users/irina/Code/depot/public/javascripts/prototype.js	function getEventID(element)
 getWrappersForEventName	/Users/irina/Code/depot/public/javascripts/prototype.js	function getWrappersForEventName(id, eventName)
 index	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def index
+index	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def index
 iter	/Users/irina/Code/depot/public/javascripts/prototype.js	function iter(name)
 klass	/Users/irina/Code/depot/public/javascripts/prototype.js	function klass()
 load_initializer	/Users/irina/Code/depot/config/boot.rb	    def load_initializer
@@ -54,6 +62,7 @@ parse_gem_version	/Users/irina/Code/depot/config/boot.rb	      def parse_gem_ver
 pick_boot	/Users/irina/Code/depot/config/boot.rb	    def pick_boot
 preinitialize	/Users/irina/Code/depot/config/boot.rb	    def preinitialize
 preinitializer_path	/Users/irina/Code/depot/config/boot.rb	    def preinitializer_path
+price_must_be_at_least_a_cent	/Users/irina/Code/depot/app/models/product.rb	  def price_must_be_at_least_a_cent
 read_environment_rb	/Users/irina/Code/depot/config/boot.rb	        def read_environment_rb
 rubygems_version	/Users/irina/Code/depot/config/boot.rb	      def rubygems_version
 run	/Users/irina/Code/depot/config/boot.rb	    def run
@@ -63,5 +72,6 @@ test_homepage	/Users/irina/Code/depot/test/performance/browsing_test.rb	  def te
 toQueryPair	/Users/irina/Code/depot/public/javascripts/prototype.js	function toQueryPair(key, value)
 up	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.up
 up	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	  def self.up
+up	/Users/irina/Code/depot/db/migrate/20110907155935_add_test_data.rb	  def self.up
 update	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def update
 vendor_rails?	/Users/irina/Code/depot/config/boot.rb	    def vendor_rails?

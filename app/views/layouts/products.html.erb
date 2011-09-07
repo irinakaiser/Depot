@@ -5,11 +5,11 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Products: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <%= stylesheet_link_tag 'scaffold', 'depot'%>
 </head>
 <body>
 
-<p style="color: green"><%= notice %></p>
+<p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield %>
 
