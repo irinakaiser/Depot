@@ -1,5 +1,9 @@
 <div id="product-list"> 
   <h1>Listing products</h1>
+  
+  <% if flash[:notice] -%>
+  <div id="notice"><%= flash[:notice]%></div>
+  <% end -%>
 
   <table>
   <% for product in @products %>

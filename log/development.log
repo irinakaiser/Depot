@@ -1337,3 +1337,2248 @@ Processing StoreController#index (for 127.0.0.1 at 2011-09-07 18:35:25) [GET]
 Rendering template within layouts/store
 Rendering store/index
 Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:08:04) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:12:26) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:12:41) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 54ms (View: 49, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:21:37) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:21:38) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:23:09) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:31:59) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:32:00) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 54ms (View: 49, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:32:02) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+  [4;36;1mSQL (36.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20110906192040)
+Migrating to AddPriceToProduct (20110906223651)
+Migrating to AddTestData (20110907155935)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:33:11) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:33:15) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 10:35:11) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 58ms (View: 54, DB: 0) | 200 OK [http://localhost/store]
+  [4;36;1mSQL (37.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20110906192040)
+Migrating to AddPriceToProduct (20110906223651)
+Migrating to AddTestData (20110907155935)
+Migrating to CreateSessions (20110908145220)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110908145220')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_session_id')[0m
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 11:28:55) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 11:28:58) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 11:29:01) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 55ms (View: 50, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 11:29:05) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 12:22:04) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 12:22:06) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+
+ActionController::UnknownAction (No action responded to add_to_cart. Actions: index):
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 12:28:46) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (88.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:15:47) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (88.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:25:03) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:25:05) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:27:01) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (89.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 13:28:14) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:28:20) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (90.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:49:52) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:50:21) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (3.1ms)[0m   [0;1mDELETE FROM sessions[0m
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:53:55) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (88.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:53:56) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 13:54:02) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 11, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 13:55:11) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:07:24) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:20:18) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (88.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:25:09) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (89.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:25:11) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:25:51) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (112.5ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:25:56) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 16ms (View: 12, DB: 1) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:25:59) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:27:15) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:31:46) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:35:22) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 16ms (View: 12, DB: 1) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:35:24) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (112.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:38:12) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (54.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:39:41) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+ERROR: compiling _run_erb_app47views47store47add_to_cart46html46erb RAISED compile error
+/Users/irina/Code/depot/app/views/store/add_to_cart.html.erb:8: syntax error, unexpected kENSURE, expecting ')'
+/Users/irina/Code/depot/app/views/store/add_to_cart.html.erb:10: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47store47add_to_cart46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h2> Your Pragmatic Cart</h2>\n<ul>\n  "
+
+; @output_buffer.concat(( @test ).to_s); @output_buffer.concat "\n  "
+;  #for item in @cart.items ; @output_buffer.concat "\n    <li>"
+; @output_buffer.concat((#h item.quantity ).to_s); @output_buffer.concat " &times; "; @output_buffer.concat((h item.title ).to_s); @output_buffer.concat "</li>\n  "
+;  #end ; @output_buffer.concat "\n</ul>"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/irina/Code/depot/app/views/store/add_to_cart.html.erb:10:in `compile!'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:61:in `compile'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:28:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/template.rb:205:in `render_template'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:265:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:262:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1328:in `default_render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1340:in `perform_action_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `send'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:606:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:391:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:386:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/commands/server.rb:111
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/irina/Code/depot/app/views/store/add_to_cart.html.erb:8: syntax error, unexpected kENSURE, expecting ')'
+/Users/irina/Code/depot/app/views/store/add_to_cart.html.erb:10: syntax error, unexpected kEND, expecting ')') on line #8 of app/views/store/add_to_cart.html.erb:
+5:     <li><%=#h item.quantity %> &times; <%=h item.title %></li>
+6:   <% #end %>
+7: </ul>
+
+    app/views/store/add_to_cart.html.erb:10:in `compile!'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:39:48) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:40:04) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:40:06) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:40:18) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:41:53) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:41:55) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:42:32) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.title %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (120.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-09-08 14:46:46) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-09-08 14:46:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+ERROR: compiling _run_erb_app47views47products47edit46html46erb RAISED compile error
+/Users/irina/Code/depot/app/views/products/edit.html.erb:7: syntax error, unexpected ':', expecting ')'
+...tput_buffer.concat(( f.label : title ).to_s); @output_buffer...
+                              ^
+/Users/irina/Code/depot/app/views/products/edit.html.erb:8: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.text_field : title ).to_s); @output_buffer...
+                              ^
+Function body:           def _run_erb_app47views47products47edit46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Editing product</h1>\n\n"
+
+;  form_for(@product) do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label : title ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field : title ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :description ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_area :description ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :image_url ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :image_url ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.submit 'Update' ).to_s); @output_buffer.concat "\n  </p>\n"
+
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( link_to 'Show', @product ).to_s); @output_buffer.concat " |\n"
+; @output_buffer.concat(( link_to 'Back', products_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/irina/Code/depot/app/views/products/edit.html.erb:27:in `compile!'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:61:in `compile'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:28:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/template.rb:205:in `render_template'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:265:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:262:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1328:in `default_render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `send'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:606:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:391:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:386:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/commands/server.rb:111
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/irina/Code/depot/app/views/products/edit.html.erb:7: syntax error, unexpected ':', expecting ')'
+...tput_buffer.concat(( f.label : title ).to_s); @output_buffer...
+                              ^
+/Users/irina/Code/depot/app/views/products/edit.html.erb:8: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.text_field : title ).to_s); @output_buffer...
+                              ^) on line #7 of app/views/products/edit.html.erb:
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label : title %><br />
+8:     <%= f.text_field : title %>
+9:   </p>
+10:   <p>
+
+    app/views/products/edit.html.erb:27:in `compile!'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2011-09-08 14:46:54) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 42ms (View: 37, DB: 0) | 200 OK [http://localhost/products/new]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2011-09-08 14:47:06) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "product"=>{"price"=>"10.0", "image_url"=>"", "title"=>"test", "description"=>"hello"}}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'test') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-09-08 14:47:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+ERROR: compiling _run_erb_app47views47products47edit46html46erb RAISED compile error
+/Users/irina/Code/depot/app/views/products/edit.html.erb:7: syntax error, unexpected ':', expecting ')'
+...tput_buffer.concat(( f.label : title ).to_s); @output_buffer...
+                              ^
+/Users/irina/Code/depot/app/views/products/edit.html.erb:8: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.text_field : title ).to_s); @output_buffer...
+                              ^
+Function body:           def _run_erb_app47views47products47edit46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Editing product</h1>\n\n"
+
+;  form_for(@product) do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label : title ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field : title ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :description ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_area :description ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.label :image_url ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :image_url ).to_s); @output_buffer.concat "\n  </p>\n  <p>\n    "
+
+
+; @output_buffer.concat(( f.submit 'Update' ).to_s); @output_buffer.concat "\n  </p>\n"
+
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( link_to 'Show', @product ).to_s); @output_buffer.concat " |\n"
+; @output_buffer.concat(( link_to 'Back', products_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/irina/Code/depot/app/views/products/edit.html.erb:27:in `compile!'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:61:in `compile'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/renderable.rb:28:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/template.rb:205:in `render_template'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:265:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_view/base.rb:262:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1252:in `render_for_file'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1328:in `default_render'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activesupport-2.3.11/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/flash.rb:151:in `perform_action'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `send'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/filters.rb:606:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:391:in `process'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/base.rb:386:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/routing/route_set.rb:438:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:29:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+/Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/rails-2.3.11/lib/commands/server.rb:111
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+/Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/irina/Code/depot/app/views/products/edit.html.erb:7: syntax error, unexpected ':', expecting ')'
+...tput_buffer.concat(( f.label : title ).to_s); @output_buffer...
+                              ^
+/Users/irina/Code/depot/app/views/products/edit.html.erb:8: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.text_field : title ).to_s); @output_buffer...
+                              ^) on line #7 of app/views/products/edit.html.erb:
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label : title %><br />
+8:     <%= f.text_field : title %>
+9:   </p>
+10:   <p>
+
+    app/views/products/edit.html.erb:27:in `compile!'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-09-08 14:47:37) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/products/2/edit]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-09-08 14:47:41) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/products/2/edit]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:48:44) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:50:31) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:50:44) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:51:02) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 55456ms (View: 55452, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:52:28) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 2664ms (View: 2659, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:52:33) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.t %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:53:49) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13139ms (View: 13134, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:54:07) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"2"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.t %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:54:46) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:54:49) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `items' for nil:NilClass) on line #3 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.t %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (113.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:55:01) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2011-09-08 14:55:42) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2011-09-08 14:55:51) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/products/3/edit]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:57:42) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:57:43) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:57:45) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:21:in `add_to_cart'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:58:06) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:20:in `add_to_cart'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 14:58:08) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:58:09) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:20:in `add_to_cart'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (102.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 14:58:24) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:21:in `add_to_cart'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:00:51) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/models/cart.rb:10:in `add_product'
+  app/controllers/store_controller.rb:20:in `add_to_cart'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:01:16) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `times' for #<CartItem:0x1036ad638>) on line #4 of app/views/store/add_to_cart.html.erb:
+1: <h2> Your Pragmatic Cart</h2>
+2: <ul>
+3:   <% for item in @cart.items %>
+4:     <li><%=h item.quantity %> &times; <%=h item.times %></li>
+5:   <% end %>
+6: </ul>
+
+    app/views/store/add_to_cart.html.erb:4
+    app/views/store/add_to_cart.html.erb:3:in `each'
+    app/views/store/add_to_cart.html.erb:3
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (118.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:02:57) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+
+NameError (undefined local variable or method `current' for #<Cart:0x103849b68>):
+  app/models/cart.rb:11:in `add_product'
+  app/controllers/store_controller.rb:20:in `add_to_cart'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:03:26) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:27:59) [GET]
+  Parameters: {"id"=>"wibble"}
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product wibble
+Redirected to http://localhost:3000/store
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/store/add_to_cart/wibble]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 15:27:59) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:28:08) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"2"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:28:18) [GET]
+  Parameters: {"id"=>"wibble"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product wibble
+Redirected to http://localhost:3000/store
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/store/add_to_cart/wibble]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 15:28:18) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 15:34:38) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 15:41:49) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 16:00:37) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 16:00:57) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 16:06:35) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 16:06:41) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 16:06:44) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart, find_cart, and index):
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 16:11:14) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart, find_cart, and index):
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 16:11:20) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart, find_cart, and index):
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 16:11:44) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart, find_cart, and index):
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 16:16:21) [GET]
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart, find_cart, and index):
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 16:43:49) [GET]
+Redirected to http://localhost:3000/store
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/store/empty_cart]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 16:43:49) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 16:59:45) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 16:59:49) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `total_price' for #<Cart:0x1037aea50>) on line #12 of app/views/store/add_to_cart.html.erb:
+9:   <% end %>
+10:   <tr class="total-line">
+11:     <td colspan="2">Total</td>
+12:     <td class="total-cell"><%= number_to_currency(@cart.total_price) %></td>
+13:   </tr>
+14:     
+15: </table>
+
+    app/views/store/add_to_cart.html.erb:12
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/irina/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 17:01:57) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 17:26:28) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 17:26:28) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/store/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 17:28:13) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2011-09-08 17:28:51) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg="}
+Redirected to http://localhost:3000/store
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/store/empty_cart]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2011-09-08 17:28:51) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 17:35:09) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"2"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 17:35:21) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"2"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /Users/irina/.rvm/gems/ruby-1.8.7-p352/gems/actionpack-2.3.11/lib/action_controller/middleware_stack.rb:72)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /Users/irina/Code/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2011-09-08 17:35:32) [POST]
+  Parameters: {"authenticity_token"=>"s2as7JsnwGAKSHrAjSrW5+JwEBhF/uzsG2l2eWm1Zpg=", "id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/store/add_to_cart/3]
