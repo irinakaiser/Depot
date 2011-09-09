@@ -1,4 +1,4 @@
-1315518729
+1315605489
 AddPriceToProduct	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	class AddPriceToProduct 
 AddTestData	/Users/irina/Code/depot/db/migrate/20110907155935_add_test_data.rb	class AddTestData 
 ApplicationController	/Users/irina/Code/depot/app/controllers/application_controller.rb	class ApplicationController 
@@ -6,9 +6,25 @@ ApplicationHelper	/Users/irina/Code/depot/app/helpers/application_helper.rb	modu
 Boot	/Users/irina/Code/depot/config/boot.rb	  class Boot
 BrowsingTest	/Users/irina/Code/depot/test/performance/browsing_test.rb	class BrowsingTest 
 Cart	/Users/irina/Code/depot/app/models/cart.rb	class Cart
+CreateLineItems	/Users/irina/Code/depot/db/migrate/20110909183739_create_line_items.rb	class CreateLineItems 
+CreateOrders	/Users/irina/Code/depot/db/migrate/20110909183556_create_orders.rb	class CreateOrders 
 CreateProducts	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	class CreateProducts 
 CreateSessions	/Users/irina/Code/depot/db/migrate/20110908145220_create_sessions.rb	class CreateSessions 
+CreateUsers	/Users/irina/Code/depot/db/migrate/20110909210542_create_users.rb	class CreateUsers 
 GemBoot	/Users/irina/Code/depot/config/boot.rb	  class GemBoot 
+LineItem	/Users/irina/Code/depot/app/models/line_item.rb	class LineItem 
+LineItemTest	/Users/irina/Code/depot/test/unit/line_item_test.rb	class LineItemTest 
+LineItemsController	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	class LineItemsController 
+LineItemsControllerTest	/Users/irina/Code/depot/test/functional/line_items_controller_test.rb	class LineItemsControllerTest 
+LineItemsHelper	/Users/irina/Code/depot/app/helpers/line_items_helper.rb	module LineItemsHelper
+LineItemsHelperTest	/Users/irina/Code/depot/test/unit/helpers/line_items_helper_test.rb	class LineItemsHelperTest 
+Order	/Users/irina/Code/depot/app/models/order.rb	class Order 
+OrderTest	/Users/irina/Code/depot/test/unit/order_test.rb	class OrderTest 
+OrdersController	/Users/irina/Code/depot/app/controllers/orders_controller.rb	class OrdersController 
+OrdersControllerTest	/Users/irina/Code/depot/test/functional/orders_controller_test.rb	class OrdersControllerTest 
+OrdersHelper	/Users/irina/Code/depot/app/helpers/orders_helper.rb	module OrdersHelper
+OrdersHelperTest	/Users/irina/Code/depot/test/unit/helpers/orders_helper_test.rb	class OrdersHelperTest 
+PAYMENT_TYPES	/Users/irina/Code/depot/app/models/order.rb	  PAYMENT_TYPES =
 Product	/Users/irina/Code/depot/app/models/product.rb	class Product 
 ProductTest	/Users/irina/Code/depot/test/unit/product_test.rb	class ProductTest 
 ProductsController	/Users/irina/Code/depot/app/controllers/products_controller.rb	class ProductsController 
@@ -23,17 +39,32 @@ StoreControllerTest	/Users/irina/Code/depot/test/functional/store_controller_tes
 StoreHelper	/Users/irina/Code/depot/app/helpers/store_helper.rb	module StoreHelper
 StoreHelperTest	/Users/irina/Code/depot/test/unit/helpers/store_helper_test.rb	class StoreHelperTest 
 TestCase	/Users/irina/Code/depot/test/test_helper.rb	class ActiveSupport::TestCase
+User	/Users/irina/Code/depot/app/models/user.rb	class User 
+UserTest	/Users/irina/Code/depot/test/unit/user_test.rb	class UserTest 
+UsersController	/Users/irina/Code/depot/app/controllers/users_controller.rb	class UsersController 
+UsersControllerTest	/Users/irina/Code/depot/test/functional/users_controller_test.rb	class UsersControllerTest 
+UsersHelper	/Users/irina/Code/depot/app/helpers/users_helper.rb	module UsersHelper
+UsersHelperTest	/Users/irina/Code/depot/test/unit/helpers/users_helper_test.rb	class UsersHelperTest 
 VendorBoot	/Users/irina/Code/depot/config/boot.rb	  class VendorBoot 
 addText	/Users/irina/Code/depot/public/javascripts/controls.js	function addText(mode, condition)
+add_line_items_from_cart	/Users/irina/Code/depot/app/models/order.rb	  def add_line_items_from_cart(cart)
 add_product	/Users/irina/Code/depot/app/models/cart.rb	  def add_product(product)
 add_to_cart	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def add_to_cart
 boot!	/Users/irina/Code/depot/config/boot.rb	    def boot!
 booted?	/Users/irina/Code/depot/config/boot.rb	    def booted?
+checkout	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def checkout
 codeForEvent	/Users/irina/Code/depot/public/javascripts/effects.js	function codeForEvent(options,eventName)
 copy	/Users/irina/Code/depot/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def create
+create	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def create
 create	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def create
+create	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def create
 createWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function createWrapper(element, eventName, handler)
+create_new_salt	/Users/irina/Code/depot/app/models/user.rb	  def create_new_salt
+destroy	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def destroy
+destroy	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def destroy
 destroy	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def destroy
+destroy	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def destroy
 destroyCache	/Users/irina/Code/depot/public/javascripts/prototype.js	function destroyCache()
 destroyWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function destroyWrapper(id, eventName, handler)
 dispatch	/Users/irina/Code/depot/public/javascripts/effects.js	function dispatch(effect, eventName)
@@ -41,8 +72,15 @@ down	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def 
 down	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	  def self.down
 down	/Users/irina/Code/depot/db/migrate/20110907155935_add_test_data.rb	  def self.down
 down	/Users/irina/Code/depot/db/migrate/20110908145220_create_sessions.rb	  def self.down
+down	/Users/irina/Code/depot/db/migrate/20110909183556_create_orders.rb	  def self.down
+down	/Users/irina/Code/depot/db/migrate/20110909183739_create_line_items.rb	  def self.down
+down	/Users/irina/Code/depot/db/migrate/20110909210542_create_users.rb	  def self.down
+edit	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def edit
+edit	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def edit
 edit	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def edit
+edit	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def edit
 empty_cart	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def empty_cart 
+encrypted_password	/Users/irina/Code/depot/app/models/user.rb	  def self.encrypted_password(password, salt)
 extend	/Users/irina/Code/depot/public/javascripts/prototype.js	function extend(tagName)
 fallback	/Users/irina/Code/depot/public/javascripts/controls.js	function fallback(name, expr)
 findDOMClass	/Users/irina/Code/depot/public/javascripts/prototype.js	function findDOMClass(tagName)
@@ -50,13 +88,18 @@ findWrapper	/Users/irina/Code/depot/public/javascripts/prototype.js	function fin
 find_cart	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def find_cart
 find_products_for_sale	/Users/irina/Code/depot/app/models/product.rb	  def self.find_products_for_sale
 fireContentLoadedEvent	/Users/irina/Code/depot/public/javascripts/prototype.js	function fireContentLoadedEvent()
+from_cart_item	/Users/irina/Code/depot/app/models/line_item.rb	  def self.from_cart_item(cart_item) 
 gem_version	/Users/irina/Code/depot/config/boot.rb	      def gem_version
 getCacheForID	/Users/irina/Code/depot/public/javascripts/prototype.js	function getCacheForID(id)
 getDOMEventName	/Users/irina/Code/depot/public/javascripts/prototype.js	function getDOMEventName(eventName)
 getEventID	/Users/irina/Code/depot/public/javascripts/prototype.js	function getEventID(element)
 getWrappersForEventName	/Users/irina/Code/depot/public/javascripts/prototype.js	function getWrappersForEventName(id, eventName)
+hidden_div_if	/Users/irina/Code/depot/app/helpers/store_helper.rb	 def hidden_div_if(condition, attributes = {}, &block)
+index	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def index
+index	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def index
 index	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def index
 index	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def index
+index	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def index
 initialize	/Users/irina/Code/depot/app/models/cart.rb	  def initialize
 items	/Users/irina/Code/depot/app/models/cart.rb	  attr_reader :items
 iter	/Users/irina/Code/depot/public/javascripts/prototype.js	function iter(name)
@@ -65,25 +108,44 @@ load_initializer	/Users/irina/Code/depot/config/boot.rb	    def load_initializer
 load_initializer	/Users/irina/Code/depot/config/boot.rb	    def load_initializer
 load_rails_gem	/Users/irina/Code/depot/config/boot.rb	    def load_rails_gem
 load_rubygems	/Users/irina/Code/depot/config/boot.rb	      def load_rubygems
+new	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def new
+new	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def new
 new	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def new
+new	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def new
 parseColor	/Users/irina/Code/depot/public/javascripts/effects.js	function parseColor(color)
 parse_gem_version	/Users/irina/Code/depot/config/boot.rb	      def parse_gem_version(text)
+password=	/Users/irina/Code/depot/app/models/user.rb	  def password=(pwd)
+password=	/Users/irina/Code/depot/app/models/user.rb	  def password=(pwd)
+password_confirmation	/Users/irina/Code/depot/app/models/user.rb	  attr_accessor  :password_confirmation
+password_non_blank	/Users/irina/Code/depot/app/models/user.rb	  def password_non_blank
 pick_boot	/Users/irina/Code/depot/config/boot.rb	    def pick_boot
 preinitialize	/Users/irina/Code/depot/config/boot.rb	    def preinitialize
 preinitializer_path	/Users/irina/Code/depot/config/boot.rb	    def preinitializer_path
 price_must_be_at_least_a_cent	/Users/irina/Code/depot/app/models/product.rb	  def price_must_be_at_least_a_cent
 read_environment_rb	/Users/irina/Code/depot/config/boot.rb	        def read_environment_rb
+redirect_to_index	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def redirect_to_index(msg = nil)
 redirect_to_index	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def redirect_to_index(msg)
 rubygems_version	/Users/irina/Code/depot/config/boot.rb	      def rubygems_version
 run	/Users/irina/Code/depot/config/boot.rb	    def run
+save_order	/Users/irina/Code/depot/app/controllers/store_controller.rb	  def save_order
+show	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def show
+show	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def show
 show	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def show
+show	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def show
 stripAlpha	/Users/irina/Code/depot/public/javascripts/prototype.js	function stripAlpha(filter)
 test_homepage	/Users/irina/Code/depot/test/performance/browsing_test.rb	  def test_homepage
 toQueryPair	/Users/irina/Code/depot/public/javascripts/prototype.js	function toQueryPair(key, value)
+total_items	/Users/irina/Code/depot/app/models/cart.rb	  def total_items
 total_price	/Users/irina/Code/depot/app/models/cart.rb	  def total_price
 up	/Users/irina/Code/depot/db/migrate/20110906192040_create_products.rb	  def self.up
 up	/Users/irina/Code/depot/db/migrate/20110906223651_add_price_to_product.rb	  def self.up
 up	/Users/irina/Code/depot/db/migrate/20110907155935_add_test_data.rb	  def self.up
 up	/Users/irina/Code/depot/db/migrate/20110908145220_create_sessions.rb	  def self.up
+up	/Users/irina/Code/depot/db/migrate/20110909183556_create_orders.rb	  def self.up
+up	/Users/irina/Code/depot/db/migrate/20110909183739_create_line_items.rb	  def self.up
+up	/Users/irina/Code/depot/db/migrate/20110909210542_create_users.rb	  def self.up
+update	/Users/irina/Code/depot/app/controllers/line_items_controller.rb	  def update
+update	/Users/irina/Code/depot/app/controllers/orders_controller.rb	  def update
 update	/Users/irina/Code/depot/app/controllers/products_controller.rb	  def update
+update	/Users/irina/Code/depot/app/controllers/users_controller.rb	  def update
 vendor_rails?	/Users/irina/Code/depot/config/boot.rb	    def vendor_rails?
