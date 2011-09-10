@@ -24,6 +24,7 @@ class StoreController < ApplicationController
     product = Product.find(params[:id])
     @cart = find_cart
     @current_item = @cart.add_product(product)
+    
     respond_to do |format|
       format.js if request.xhr?
       format.html {redirect_to_index}
